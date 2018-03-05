@@ -10,7 +10,9 @@
 /* test classes*/
 .delimitare{
 	border: 2px solid #888888;
-	display: inline-block;
+  display: inline;
+  padding: 20px;
+  margin: 20px;
 }
 
 .margini{
@@ -47,6 +49,7 @@ p {
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
-	size: 40px;
+  size: 40px;
+  line-height: 60px;
 }
 
