@@ -11,7 +11,7 @@
     "@brand-info": "#5bc0de",
     "@brand-warning": "#f0ad4e",
     "@brand-danger": "#d9534f",
-    "@body-bg": "#fbfcfc",
+    "@body-bg": "#fff",
     "@text-color": "@gray-dark",
     "@link-color": "@brand-primary",
     "@link-hover-color": "darken(@link-color, 15%)",
@@ -115,7 +115,7 @@
     "@dropdown-link-disabled-color": "@gray-light",
     "@dropdown-header-color": "@gray-light",
     "@dropdown-caret-color": "#000",
-    "@screen-xs": "576px",
+    "@screen-xs": "480px",
     "@screen-xs-min": "@screen-xs",
     "@screen-phone": "@screen-xs-min",
     "@screen-sm": "768px",
@@ -138,7 +138,7 @@
     "@container-sm": "@container-tablet",
     "@container-desktop": "(940px + @grid-gutter-width)",
     "@container-md": "@container-desktop",
-    "@container-large-desktop": "(1170px + @grid-gutter-width)",
+    "@container-large-desktop": "(1140px + @grid-gutter-width)",
     "@container-lg": "@container-large-desktop",
     "@navbar-height": "50px",
     "@navbar-margin-bottom": "@line-height-computed",
@@ -382,6 +382,7 @@
     "@hr-border": "@gray-lighter"
   },
   "css": [
+    "print.less",
     "type.less",
     "code.less",
     "grid.less",
@@ -389,6 +390,7 @@
     "forms.less",
     "buttons.less",
     "responsive-utilities.less",
+    "glyphicons.less",
     "button-groups.less",
     "input-groups.less",
     "navs.less",
@@ -416,11 +418,18 @@
     "carousel.less"
   ],
   "js": [
+    "alert.js",
+    "button.js",
     "carousel.js",
     "dropdown.js",
     "modal.js",
     "tooltip.js",
-    "collapse.js"
+    "popover.js",
+    "tab.js",
+    "affix.js",
+    "collapse.js",
+    "scrollspy.js",
+    "transition.js"
   ],
-  "customizerUrl": "https://getbootstrap.com/docs/3.3/customize/?id=f14232e15b87b4a8f3d5415e5db37223"
+  "customizerUrl": "https://getbootstrap.com/docs/3.3/customize/?id=4aba2d625f137c4bde1722d4782a924c"
 }
