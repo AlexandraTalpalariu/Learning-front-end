@@ -15,29 +15,25 @@ body{
 header{
   background-color:$white;
   border-bottom: 1px solid $gray-trasparency;
-  .navigation{
-    text-align: right;
-  }
+  text-align: right;
 }
   
 .logo{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: left;
-    display: inline-block;
-  }
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
   
 .navigation{
-    //general propreties
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    li {
-        display: inline-block;
-        padding: 30px 0 30px 30px;
-    }
-    li ul{
-        display: inline-block;
-        margin: 0;
-    }
+  //general propreties
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  li {
+      display: inline-block;
+      padding: 30px 0 30px 30px;
   }
+  li ul{
+    display: inline-block;
+  }
+}
