@@ -7,7 +7,7 @@ body{
 }
   
 .site-width{
-  max-width: 1200px;
+  max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -22,6 +22,23 @@ header{
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: left;
+  position: absolute;
+
+  a{
+    opacity: 1;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+  }
+
+  a:hover{
+    opacity: 0.5;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+  }
 }
   
 .navigation{
@@ -33,4 +50,32 @@ header{
       display: inline-block;
       padding: 30px 0 30px 30px;
   }
+}
+
+a {
+  text-decoration: none;
+  color: $main-text-color;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: $main-hover-color;
+}
+
+footer{
+  text-align: center;
+  border-top: 1px solid $footer-line-color;
+  p {
+    margin: 0;
+    line-height: 60px;
+  }
+}
+
+.page-wrap {
+  min-height: 100%;
+  &::after {
+    content: '';
+    display: block;
+    height: 60px;
+    }
 }
